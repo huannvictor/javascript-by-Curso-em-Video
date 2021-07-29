@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pais</title>
+    <style>
+        body{
+            background-color: brown;
+            color: aliceblue;
+            font: normal 14pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>De onde és e para onde vais que te direi quem tu és:</h1>
+    <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="submeter" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        var nac = window.document.querySelector('imput#txtnac')
+        function verificar(nac = 'Brasil'){
+            var res = window.document.querySelector('div#res')
+            res.innerHTML = `<p>Se você é de(o/a) ${nac} érdes brasiliano, meus pêsames!</p>`
+        }
+    </script>
+</body>
+</html>
