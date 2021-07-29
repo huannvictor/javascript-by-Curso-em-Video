@@ -17,7 +17,7 @@
     <h1>Iniciando estudos com o DOM</h1>
     <P>Aqui vai o resultado</P>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-    <div name="msg">Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
@@ -28,8 +28,16 @@
         /*
         var d = window.document.getElementById('msg')
         d.innerText = 'mas que porra é essa?'*/
+        /*
         var d = window.document.getElementsByName('msg')[0]
-        d.innerText = 'WTF, esse cachorro é uma mizera preta!'
+        d.innerText = 'WTF, esse cachorro é uma mizera preta!'*/
+        /*
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'tomato'
+        d.innerText = 'Que porra é essa carai?!'
+        d.style.background = '#fff'*/
+        var d = window.document.querySelectorAll('div#msg')[0]
+        d.style.background = 'tomato'
     </script>
 </body>
 </html>
