@@ -22,10 +22,16 @@
     </div>
 
     <script>
-        var nac = window.document.querySelector('imput#txtnac')
-        function verificar(nac = 'Brasil'){
+        function verificar(){
+            var txtnac = window.document.querySelector('input#txtnac')
             var res = window.document.querySelector('div#res')
-            res.innerHTML = `<p>Se você é de(o/a) ${nac} érdes brasiliano, meus pêsames!</p>`
+            var nac = txtnac.value
+            res.innerHTML = `<p>Seu país de origem é: <strong>${nac}</strong></p>`
+            if (nac == 'BRA'){
+                res.innerHTML += `Meus sentimentos, és <em>brasilys</em> e não vais a lugar algum:s`
+            }else{
+                res.innerHTML += `parabéns por terdes futuro, não éreis brazuks <em>#invejenha</em>`
+            }
         }
     </script>
 </body>
