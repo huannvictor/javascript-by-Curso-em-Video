@@ -16,9 +16,9 @@ function contar(){
     p = Number(pas.value)
 
     //alert
-    if (i == 0 || f == 0 || p == 0){
-    window.alert('[erro] FALTAM DIGITAR DADOS')
-    }else if(p <= 0){
+    if (i == 0 || f == 0 ){
+        window.alert('[erro] FALTAM DIGITAR DADOS')
+    }else if(p < 1){
         window.alert('[erro] Valor do [passo] inválido, considerando entrada = 1')
         p = 1
     }else{
