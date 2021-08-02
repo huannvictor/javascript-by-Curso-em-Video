@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>operadores</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="central">DADOS COM O JS</h1>
+        <h1 class="central">PORCENTAGENS EM JS</h1>
     </header>
     <section>
         <div class="central">
-            <h1>Trabalhando com dados v2.0</h1>
+            <p>Valor Inicial</p>R$ <input type="number" name="vlri" id="vlri">
+            <p>Valor Porcentagem</p><input type="number" name="vlrp" id="vlrp">%
+            <p><input type="button" value="CALCULAR" onclick="calcular()"></p>
         </div>
         <div class="central">
-            <button onclick="inicio()">CLIQUE AQUI PARA COMEÇAR</button>
-            <div id="result">
-                <p>Aqui vai aparecer o resultadinho[...]</p>
-            </div>
+            <p>Resutado:</p>
+            <p id="result">[aguardando dados...]</p>
         </div>
     </section>
     <footer>
