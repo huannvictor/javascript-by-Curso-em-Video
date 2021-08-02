@@ -1,0 +1,83 @@
+body{
+    background-color: cornflowerblue;
+    font: normal 14pt arial;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(71, 61, 139, 0.5);
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px 60px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 2.5px 5px rgba(71, 61, 139, 0.5);
+}
+div{
+    text-align: center;
+}
+input{
+    padding: 5px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 2px 3px 3px rgba(71, 61, 139, 0.25);
+    font-size: large;
+    background-color: #ccd9f2;
+    min-width: 250px;
+}
+#botao{
+    padding: 20px;
+    border-radius: 50px;
+    margin: 15px;
+    border: 0;
+    box-shadow: 2px 3px 3px rgba(71, 61, 139, 0.25);
+    font-size: large;
+    background-color: #ccd9f2;
+}
+.layout1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.layoutDados{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-around;    
+}
+#reciboe{
+    min-width: 180px;
+    border-left: 1px dotted cornflowerblue;
+    border-top: 1px dotted cornflowerblue;
+    border-bottom:  1px dotted rgba(100, 148, 237, 0.508);
+    padding: 30px 0 30px 30px;
+    border-radius: 15px 0 0 15px;
+}
+#recibod{
+    min-width: 180px;
+    border-right: 1px dotted cornflowerblue;
+    border-top: 1px dotted cornflowerblue;
+    border-bottom:  1px dotted cornflowerblue;
+    padding: 30px 30px 30px 0;
+    border-radius: 0 15px 15px 0;
+}
+.descr{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    border-bottom: 1px dashed cornflowerblue;
+}
+span{
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+    border-bottom: 1px dashed cornflowerblue;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
