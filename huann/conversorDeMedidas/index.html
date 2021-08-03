@@ -4,33 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>desafio 5    </title>
+    <title>CONVERSOR DE MEDIDAS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 id="tit">DESAFIO  05</h1>
+        <h1 id="tit">CONVERSOR DE MEDIDAS</h1>
     </header>
     <section>
-        <div>
-            <h1>CONVERSOR DE MEDIDAS</h1>
+        <div id="form">
+            <input type="number" name="metros" id="txtmet" placeholder="insira o valor em metros"></input>
+            <input type="button" value="REALIZAR CÁLCULO" onclick="calcular()" id="botao">
         </div>
-        <div>
-            <input type="button" value="Relizar venda" onclick="calcular()" id="botao">
-            <h2>recibo</h2>
-        </div>
-        <div id="recibo">
-            <div id="reciboe">
-                <p class="descr">Item adquirido: </p>
-                <p class="descr">Valor: </p>
-                <p class="descr">Valor pago: </p>
-                <p class="descr">Troco: </p>
+        <div id="saida">
+            <div id="esq">
+                <p class="medidas"><strong>Para o valor de: </strong></p>
+                <p class="medidas">Em Km: </p>
+                <p class="medidas">Em Hm: </p>
+                <p class="medidas">Em Dam: </p>
+                <p class="medidas">Em dm: </p>
+                <p class="medidas">Em cm: </p>
+                <p class="medidas">Em mm: </p>
             </div>
-            <div id="recibod">
-                <span id="item">[aguardando valores]</span>
-                <span id="vlritem">[aguardando valores]</span>
-                <span id="vlrpago">[aguardando valores]</span>
-                <span id="torco">[aguardando valores]</span>
+            <div id="dir">
+                <span id="met">[aguardando valores]</span>
+                <span id="km">[aguardando valores]</span>
+                <span id="hm">[aguardando valores]</span>
+                <span id="dam">[aguardando valores]</span>
+                <span id="dm">[aguardando valores]</span>
+                <span id="cm">[aguardando valores]</span>
+                <span id="mm">[aguardando valores]</span>
             </div>
         </div>
     </section>
