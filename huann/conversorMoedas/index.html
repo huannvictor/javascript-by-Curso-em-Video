@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERSOR DE MOEDAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tit">CONVERSOR DE MOEDAS</h1>
+        <h1>R$ → US$</h1>
+    </header>
+    <section>
+        <div id="form">
+            <input type="number" name="cotação" id="txtcot" placeholder="valor cotação dólar"></input>
+            <input type="number" name="carteira" id="txtcar" placeholder="valor em carteira"></input>
+            <input type="button" value="CONVERTER" onclick="converter()" id="botao">
+        </div>
+        <div id="saida">
+            <table>
+                <th colspan="2">
+                    cotação atual: <span id="scota">[aguardando dados]</span>
+                </th>
+                <tr>
+                    <td>disponível para comprar:</td>
+                    <td><span id="scart"> [aguardando dados]</span></td>
+                </tr>
+                <tr>
+                    <td>poderá comprar</td>
+                    <td><span id="scomp"> [aguardando dados]</span></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;HuannAlmeida - DesenvolvedorWeb</p>
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
