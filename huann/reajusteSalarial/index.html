@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REAJUSTE SALARIAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tit">REAJUSTE SALARIAL</h1>
+    </header>
+    <section>
+        <div id="form">
+            <input type="text" id="funcionario" placeholder="insira o nome do funcionario"></input>
+            <input type="number" id="salbase" placeholder="insira o salario base"></input>
+            <input type="number" id="vporc" placeholder="insira a % do acrescimo"></input>
+            <input type="button" value="REALIZAR CÁLCULO" onclick="calcular()" id="botao">
+        </div>
+            <div id="tit"><h3>Reajuste salarial do(a)</h3><h3>funcionário</h3></div>
+        <div id="saida">
+            <div id="esq">
+                <p class="medidas">Salário Base:</p>
+                <p class="medidas">Porcent. acrescida: </p>
+                <p class="medidas">Valor do acréscimo: </p>
+                <p class="medidas">Salário reajustado: </p>
+            </div>
+            <div id="dir">
+                <span id="sbase">[aguardando valores]</span>
+                <span id="porce">[aguardando valores]</span>
+                <span id="acres">[aguardando valores]</span>
+                <span id="sreaj">[aguardando valores]</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;HuannAlmeida - DesenvolvedorWeb</p>
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
