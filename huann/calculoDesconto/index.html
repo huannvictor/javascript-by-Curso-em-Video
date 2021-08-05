@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CÁLCULO DESCONTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tit">CÁLCULO DESCONTO</h1>
+    </header>
+    <section>
+        <div id="form">
+            <input type="text" id="fprod" placeholder="item adquirido"></input>
+            <input type="number" id="fvini" placeholder="valor do item"></input>
+            <input type="number" id="fvdes" placeholder="valor do desconto"></input>
+            <input type="button" value="DESCONTAR" onclick="calcular()" id="botao">
+        </div>
+            <div id="tit"><h3>[aguardando item]</h3></div>
+        <div id="saida">
+            <div id="esq">
+                <p class="medidas"><strong>Valor original: </strong></p>
+                <p class="medidas">Desconto (%): </p>
+                <p class="medidas">Desconto (R$): </p>
+                <p class="medidas">Valor final: </p>
+            </div>
+            <div id="dir">
+                <span id="vlrini">[aguardando valores]</span>
+                <span id="prcdes">[aguardando valores]</span>
+                <span id="vlrdes">[aguardando valores]</span>
+                <span id="vlrfin">[aguardando valores]</span>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;HuannAlmeida - DesenvolvedorWeb</p>
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
