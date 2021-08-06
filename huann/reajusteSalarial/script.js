@@ -16,16 +16,12 @@ function calcular(){
     //saída
     let tit = (document.querySelector('div#tit'))
     .innerHTML = `<h3>Reajuste salarial do(a) </h3><h3 id="func"> ${funcionario}</h3>`
-
     let sbase = (document.querySelector('span#sbase'))
     .innerHTML = `${salbase.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
-
     let porce = (document.querySelector('span#porce'))
     .innerHTML = `${vporc.toFixed(2)}%`
-
     let acres = (document.querySelector('span#acres'))
     .innerHTML = `${acresci.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
-
     let sreaj = (document.querySelector('span#sreaj'))
     .innerHTML = `${salreaj.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}`
 }
