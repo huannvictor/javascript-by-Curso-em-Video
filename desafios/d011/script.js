@@ -1,11 +1,5 @@
 function verificar(){
-    let form = [
-        Number(prompt('Qual o ano você quer verificar?'))
-    ]
-    let ano = [
-        (document.querySelector('div#schild')).innerHTML = `O ano ${form[0]} É bissexto`,
-        (document.querySelector('div#schild')).innerHTML = `O ano ${form[0]} Não é bissexto`
-    ]
+    let form = Number(prompt('Qual o ano você quer verificar?'))
 
     /*calculo bissexto
     etapa 1 é %4?   sim E2, não E5 (não é bissexto)
@@ -15,11 +9,9 @@ function verificar(){
     etapa 5 não é bissexto
     */ 
 
-    if (form[0]%4 != 0){
-            ano[1]
-        }else if (form[0]%100 != 0){
-            ano[0]
-        }else if (form[0]%400 != 0){
-            ano[1]
+    if (form %4 == 0 || form %100 == 0 || form %400 == 0){
+        (document.querySelector('div#schild')).innerHTML = `O ano ${form} É BISSEXTO`
+        }else{
+        (document.querySelector('div#schild')).innerHTML = `O ano ${form} NÃO É BISSEXTO`
         }
 }
