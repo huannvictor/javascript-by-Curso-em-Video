@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resolvendo Bhaskara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="tit">RESOLVENDO BHASKARA</h1>
+        <h1>calculando o valor de ∆<h1>
+    </header>
+    <section>
+        <div id="form">
+            <div class="itemform">
+                <p>valor de a:</p><input type="number" name="a" id="vala" placeholder="valor de a"></input>
+            </div>
+            <div class="itemform">
+                <p>valor de b:</p><input type="number" name="b" id="valb" placeholder="valor de b"></input>
+            </div>
+            <div class="itemform">
+                <p>valor de c:</p><input type="number" name="c" id="valc" placeholder="valor de c"></input>
+            </div>
+            <input type="button" value="CALCULAR ∆" onclick="converter()" id="botao">
+        </div>
+        <div id="saida">
+            <table>
+                <th colspan="2">
+                    Valor de ∆ = (b²) - 4ac
+                </th>
+                <tr>
+                    <td>valor de a::</td>
+                    <td><span id="sva"> [aguardando dados]</span></td>
+                </tr>
+                <tr>
+                    <td>valor de b:</td>
+                    <td><span id="svb"> [aguardando dados]</span></td>
+                </tr>
+                <tr>
+                    <td>valor de c:</td>
+                    <td><span id="svc"> [aguardando dados]</span></td>
+                </tr>
+                <th colspan="2">
+                    ∆ = <span id="result">[resultado]</span>
+                </th>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;HuannAlmeida - DesenvolvedorWeb</p>
+    </footer>
+
+    <script src="script.js" ></script>
+</body>
+</html>
