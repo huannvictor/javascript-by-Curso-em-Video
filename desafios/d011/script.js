@@ -9,7 +9,7 @@ function verificar(){
     etapa 5 não é bissexto
     */ 
 
-    if (form %4 == 0 || form %100 == 0 || form %400 == 0){
+    if (form %4 == 0 && form %100 != 0 || form %400 == 0){
         (document.querySelector('div#schild')).innerHTML = `O ano ${form} É BISSEXTO`
         }else{
         (document.querySelector('div#schild')).innerHTML = `O ano ${form} NÃO É BISSEXTO`
