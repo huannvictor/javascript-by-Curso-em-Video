@@ -1,0 +1,75 @@
+body{
+    background-color: cornflowerblue;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 0px 2px 1px rgba(71, 61, 139, 0.5);
+}
+section, main{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 15px 120px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 2.5px 5px rgba(71, 61, 139, 0.5);
+}
+#entrada{
+    display: flex;    
+    justify-content: space-around;
+    padding-bottom: 25px;
+}
+div{
+    text-align: center;
+}
+.botao{
+    padding: 25px;
+    min-width: 200px;
+    border-radius: 15px;
+    background-color: #ccd9f277;
+    font-weight: bold;
+}
+#botao{
+    background-color: #ccd9f2;
+}
+#sparent{
+    display: grid;
+    justify-content: center;
+}
+#schild{
+    display: grid;
+    justify-items: center;
+}
+table{
+    min-width: 400px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: #ccd9f2;
+    padding: 20px;
+    box-shadow: 2px 3px 3px rgba(71, 61, 139, 0.336);
+}
+th{
+    padding: 3px 0;
+    text-align: center;
+    border-bottom: 3px solid cornflowerblue;
+}
+td{
+    padding: 3px 0;
+    border-bottom: 1px dotted cornflowerblue;
+}
+input{
+    padding: 20px;
+    border-radius: 50px;
+    margin: 15px;
+    border: 0;
+    box-shadow: 2px 3px 3px rgba(71, 61, 139, 0.25);
+    font-size: large;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+}
