@@ -31,8 +31,17 @@ div{
     background-color: #ccd9f277;
     font-weight: bold;
 }
+.botaopeq{
+    padding: 25px;
+    border-radius: 15px;
+    background-color: #ccd9f277;
+    font-weight: bold;
+
+}
 #botao{
-    background-color: #ccd9f2;
+    padding: 0 50px;
+    border-radius: 15px;
+    background-color: #ccd9f277;
 }
 #sparent{
     display: grid;
