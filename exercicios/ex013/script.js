@@ -9,8 +9,11 @@ function calcular (){
     if (valor[0] > valor[1]){
         saida = (document.querySelector('div#sparent')).innerHTML=`
         <p>Analisanso os valores ${valor[0]} e ${valor[1]}, o maior valor é ${valor[0]} </p>`
-    }else{
+    }else if (valor[0] < valor[1]){
         saida = (document.querySelector('div#sparent')).innerHTML=`
         <p>Analisanso os valores ${valor[0]} e ${valor[1]}, o maior valor é ${valor[1]} </p>`
+    }else{
+        saida = (document.querySelector('div#sparent')).innerHTML=`
+        <p>Analisanso os valores ${valor[0]} e ${valor[1]}, os valores são iguais. </p>`
     }
 }
