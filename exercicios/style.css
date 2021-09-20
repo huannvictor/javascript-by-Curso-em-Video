@@ -52,6 +52,7 @@ div{
     justify-items: center;
 }
 table{
+    margin: 15px;
     min-width: 400px;
     text-align: left;
     border-radius: 15px;
