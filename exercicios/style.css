@@ -82,3 +82,8 @@ footer{
     font-style: italic;
     font-size: small;
 }
+.marca{
+    background-color: lightblue;
+    padding: 1px 3px;
+    border-radius: 3px;
+}
