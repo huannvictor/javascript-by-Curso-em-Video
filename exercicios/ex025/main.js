@@ -6,7 +6,7 @@ function contar(){
 
     while (cont < num){
         saida.innerHTML += `${cont} → `
-        cont ++
+        cont ++ //-> cont = cont +1 / cont -- -> cont = cont -1
     }
     saida.innerHTML += `${cont} <strong>🏳</strong> `
 }
