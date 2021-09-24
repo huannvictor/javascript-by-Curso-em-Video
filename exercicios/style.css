@@ -28,7 +28,7 @@ div{
     margin: 10px;
     text-align: center;
 }
-button, input{
+button, input, textarea, .estpadrao{
     border: none;
     box-shadow: 0px 2.5px 5px rgba(71, 61, 139, 0.5);
     padding: 25px;
@@ -38,11 +38,11 @@ button, input{
     background-color: #ccd9f277;
     font-weight: bold;
 }
-button:hover{
+button,input,textarea:hover{
     background-color: #c4d7f8a6;
     box-shadow: 0px 2.5px 5px rgba(11, 5, 48, 0.556);
 }
-button:active{
+button,input,textarea:active{
     background-color: #c4d7f877;
     box-shadow: 0px 2.5px 5px rgba(11, 5, 48, 0.529);
 }
